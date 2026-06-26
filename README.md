@@ -61,7 +61,7 @@ After uploading files and then closing it down, a certain file and folder are cr
 
 ## Conclusion
 
-To anyone who may come across this, I hope you find this useful.
+This project is not about replacing people but showing the capabilities of AI and how to more effectively conduct certain tasks which previously would've have taken days if not weeks; with Claude, this project was setup in a matter of minutes. To anyone who may come across this, I hope you find this useful.
 
 ### Devices Used:
 - Claude AI
