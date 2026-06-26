@@ -24,6 +24,7 @@ Response: (looking through PSCI 432 document). You perform legal analysis by fol
 Make it clear what I need to do to start using this tool and how to properly terminate it.
 If files needed to be created and stored locally on my computer for this program to work, make this clear and show me which files require this.
 ```
+</br>After running this prompt, Claude created all the files necessary for this program to run and even inlcuded instructions on how to set it up. These are shown [here](https://github.com/Jeremiah-Rojas/RAG-System/blob/main/rag_system/README.md)
 </br>
 The image below shows what the “TEST.txt” document contains, which is just the secret along with filler text:
 </br>
@@ -34,7 +35,7 @@ Although you can upload PDF, DOCX, and MD files as well as text documents, I cho
 
 ## Startup
 
-See the instructions in[this file](https://github.com/Jeremiah-Rojas/RAG-System/blob/main/rag_system/README.md) on how to properly set up this system. Note that when downloading these files, the file structure must remain identical to how it is set up here in github:
+See the instructions in [this file](https://github.com/Jeremiah-Rojas/RAG-System/blob/main/rag_system/README.md) on how to properly set up this system. Note that when downloading these files, the file structure must remain identical to how it is set up here in github:
 ```
 —rag_system
           |___README.md
@@ -58,6 +59,9 @@ After uploading files and then closing it down, a certain file and folder are cr
 </br>Below is the file and folder created (rag_index.pkl, uploads) when starting a new session:
 </br><img width="1050" height="307" alt="rag-persistence" src="https://github.com/user-attachments/assets/845b8a42-7344-4327-abda-249a1bffa450" />
 
+## Conclusion
+
+To anyone who may come across this, I hope you find this useful.
 
 ### Devices Used:
 - Claude AI
