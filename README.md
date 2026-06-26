@@ -29,6 +29,35 @@ The image below shows what the “TEST.txt” document contains, which is just t
 </br>
 <img width="1006" height="482" alt="image" src="https://github.com/user-attachments/assets/9c19ba90-dbcd-4b66-bd2a-ffa4d6afb349" />
 
+</br>
+Although you can upload PDF, DOCX, and MD files as well as text documents, I chose to upload a .txt file for simplicity sake.
+
+## Startup
+
+See the instructions in[this file](https://github.com/Jeremiah-Rojas/RAG-System/blob/main/rag_system/README.md) on how to properly set up this system. Note that when downloading these files, the file structure must remain identical to how it is set up here in github:
+```
+—rag_system
+          |___README.md
+          |___app.py
+          |___requirements.txt
+          |___static
+		 |___index.html
+```      
+</br>If the file/folder structure is changed, even the names, the system will throw an error.
+
+
+</br>Below is the system starting up:
+</br><img width="1362" height="662" alt="rag-startup" src="https://github.com/user-attachments/assets/59a6f6a0-1d27-45f2-9b42-def85bda667f" />
+
+
+## Persistence
+
+After uploading files and then closing it down, a certain file and folder are created in order to maintain any documents you uploaded in previous sessions. Also, the API Key you enter is not saved anywhere but instead resides in memory and disappears every time you close the system so every time you wish to use the system, you must re-enter the same API Key every time; you do not need to create a new API Key every time.
+
+
+</br>Below is the file and folder created (rag_index.pkl, uploads) when starting a new session:
+</br><img width="1050" height="307" alt="rag-persistence" src="https://github.com/user-attachments/assets/845b8a42-7344-4327-abda-249a1bffa450" />
+
 
 ### Devices Used:
 - Claude AI
