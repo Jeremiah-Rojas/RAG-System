@@ -1,8 +1,9 @@
 """
 RAG System Backend — Flask + OpenAI Embeddings + NumPy Vector Search
 ======================================================================
-Setup with: 
-Run with:  python app.py
+Setup with: pip install -r requirements.txt     OR     pip install --break-system-packages -r requirements.txt
+
+Run with:  python app.py     OR     python3 app.py
 Stop with: Ctrl+C  (or close the terminal)
 """
 
