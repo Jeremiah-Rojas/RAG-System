@@ -1,6 +1,7 @@
 """
 RAG System Backend — Flask + OpenAI Embeddings + NumPy Vector Search
 ======================================================================
+Setup with: 
 Run with:  python app.py
 Stop with: Ctrl+C  (or close the terminal)
 """
