@@ -7,6 +7,9 @@ The image above shows the RAG system in action. A RAG (Retrieval-Augmented Gener
 
 </br>The first thing you must do for the system to work properly is enter your OpenAI API key; note that this system will not work with any other LLM. After that, it’s as simple as uploading documents and asking questions based on those documents. Note, it’s best to specify what document you want it to search by calling it by its full file name.
 </br>
+
+
+This is the prompt I gave Claude to build out this system; this was done with a free Claude account. The more descriptive you are, the better it will build the system according to how you imagine it:
 ```
 Build a RAG system with a Web interface with a dark futuristic look consisting of dark gray, black, blue, and white.
 This RAG system will be accessible only to me on my local computer and should have a place for me to enter text according to what I want it to do.
@@ -21,6 +24,10 @@ Response: (looking through PSCI 432 document). You perform legal analysis by fol
 Make it clear what I need to do to start using this tool and how to properly terminate it.
 If files needed to be created and stored locally on my computer for this program to work, make this clear and show me which files require this.
 ```
+</br>
+The image below shows what the “TEST.txt” document contains, which is just the secret along with filler text:
+</br>
+<img width="1006" height="482" alt="image" src="https://github.com/user-attachments/assets/9c19ba90-dbcd-4b66-bd2a-ffa4d6afb349" />
 
 
 ### Devices Used:
